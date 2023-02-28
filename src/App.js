@@ -1,13 +1,15 @@
 import React from 'react'
-import Movies from './Movies/Movies';
+import Calculator from './Calculator/Calculator';
+// import Movies from './Movies/Movies';
 
 function App() {
   return (
     <div>
-      <h1>Book My Ticket</h1>
+      <Calculator/>      
+      {/* <h1>Book My Ticket</h1>
       <div>
       <Movies/>
-      </div>
+      </div> */}
     </div>
   )
 }
